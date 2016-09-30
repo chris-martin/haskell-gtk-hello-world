@@ -2,7 +2,7 @@
 
 pkgs.haskell.lib.buildStackProject {
   name = "hello-world";
-  ghc = ghc;
+  inherit ghc;
 
   buildInputs = with pkgs; [
     cairo
