@@ -1,7 +1,7 @@
 This is the [hello-world example from the gtk2hs documentation]
 (http://projects.haskell.org/gtk2hs/documentation/#hello_world).
 
-If you're using Nix, your `~/.stack/config.yaml` should include this:
+If you're using Nix, `~/.stack/config.yaml` should include this:
 
 ```yaml
 nix:
