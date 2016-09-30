@@ -14,7 +14,7 @@ Gtk2hs requires you to install this, which will end up somewhere in `~/.stack`:
 stack install gtk2hs-buildtools
 ```
 
-Then you build `hello-world`:
+Then you can build `hello-world`:
 
 ```bash
 stack build
