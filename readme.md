@@ -8,7 +8,8 @@ nix:
   enable: true
 ```
 
-Gtk2hs requires you to install this, which will end up somewhere in `~/.stack`:
+Gtk2hs requires you to install `gtk2hs-buildtools`, which will end up somewhere
+in `~/.stack`:
 
 ```bash
 stack install gtk2hs-buildtools
