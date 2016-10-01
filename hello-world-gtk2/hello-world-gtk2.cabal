@@ -1,17 +1,17 @@
-name:                hello-world
+name:                hello-world-gtk2
 version:             0.1.0.0
 build-type:          Simple
 cabal-version:       >=1.10
 
 library
   hs-source-dirs:    src
-  exposed-modules:   HelloWorld
+  exposed-modules:   HelloWorldGtk2
   build-depends:     base >= 4.7 && < 5, gtk
   default-language:  Haskell2010
 
-executable hello-world
+executable hello-world-gtk2
   hs-source-dirs:    app
   main-is:           Main.hs
   ghc-options:       -threaded -rtsopts -with-rtsopts=-N
-  build-depends:     base, hello-world
+  build-depends:     base, hello-world-gtk2
   default-language:  Haskell2010

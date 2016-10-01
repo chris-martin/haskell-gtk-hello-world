@@ -1,8 +1,8 @@
 { pkgs ? import <nixpkgs> {}, ghc ? pkgs.ghc }:
 
 pkgs.haskell.lib.buildStackProject {
-  name = "hello-world-gtk";
-  inherit ghc;
+  name = "hello-world-gtk3";
+  ghc = ghc;
 
   buildInputs = with pkgs; [
     cairo

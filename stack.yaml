@@ -1,7 +1,8 @@
 resolver: 'lts-7.0'
 
 packages:
-- '.'
+- hello-world-gtk2
+- hello-world-gtk3
 
 nix:
   shell-file: 'shell.nix'

@@ -1,4 +1,4 @@
-module HelloWorld (main) where
+module HelloWorldGtk2 (main) where
 
 import qualified Graphics.UI.Gtk as Gtk
 import           Graphics.UI.Gtk (AttrOp(..))
