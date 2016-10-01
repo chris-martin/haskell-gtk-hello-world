@@ -24,7 +24,7 @@ Then you can build the hello-world executables:
 stack build
 ```
 
-And run it them:
+And run them:
 
 ```
 stack exec hello-world-gtk2
