@@ -11,7 +11,7 @@ main = do
     Gtk.set window [ Gtk.containerBorderWidth := 10
                    , Gtk.containerChild := button ]
     Gtk.set button [ Gtk.buttonLabel := "Hello World" ]
-    Gtk.onClicked button (putStrLn "Hello World")
+    Gtk.onClicked button $ putStrLn "Hello World"
     Gtk.onDestroy window Gtk.mainQuit
     Gtk.widgetShowAll window
     Gtk.mainGUI
